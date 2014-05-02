@@ -1,3 +1,4 @@
+let python_highlight_all=1
 syntax on
 filetype indent plugin on
 set tabstop=4
