@@ -1,9 +1,16 @@
-*.pyc
-*.pyo
+# Python
+*.py[cod]
+*.egg
+*.egg-info
+eggs
+
+# Temp
 *.swp
 *.tmp
 *~
 
+# Build
 MANIFEST
-build/
-dist/
+build
+dist
+sdist
