@@ -1,5 +1,9 @@
 # .bashrc
 
+if [[ ! -d ${HOME}/bin ]]; then
+    mkdir ${HOME}/bin
+fi
+
 if [[ ! $(echo ${PATH} | grep "${HOME}/bin") ]];  then
     export PATH=${PATH}:${HOME}/bin
 fi
