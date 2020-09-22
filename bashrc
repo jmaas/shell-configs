@@ -18,6 +18,9 @@ fi
 # setup prompt
 export PS1='\[\e[1;32m\][\u@\h:\w]\$\[\e[m\] '
 
+# setup editor
+export EDITOR=vim
+
 # setup aliases
 alias ll="ls -lsh --color"
 alias la="ls -lsha --color"
