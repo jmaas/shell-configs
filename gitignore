@@ -14,3 +14,6 @@ MANIFEST
 build
 dist
 sdist
+
+# MacOS
+.DS_Store
